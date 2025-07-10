@@ -1,8 +1,10 @@
-import Website from "./website/page";
 
+import Website from "./website/page";
 
 export default function Page() {
   return (
-    <Website/>
-)
+    <>
+        <Website />
+    </>
+  )
 }

@@ -1,0 +1,89 @@
+import { Calendar, Briefcase, Users, TrendingUp } from 'lucide-react';
+
+export const featuredJobs = [
+    {
+      id: '1',
+      title: 'Senior Frontend Developer',
+      company: 'TechCorp Inc.',
+      location: 'San Francisco, CA',
+      type: 'Full-time',
+      salary: '$120,000 - $160,000',
+      postedDate: '2 days ago',
+      description: 'We are looking for a skilled Frontend Developer to join our dynamic team. You will be responsible for building user-facing features using React and modern web technologies.',
+      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      logo: '',
+      featured: true,
+    },
+    {
+      id: '2',
+      title: 'UX/UI Designer',
+      company: 'Design Studio',
+      location: 'New York, NY',
+      type: 'Full-time',
+      salary: '$90,000 - $120,000',
+      postedDate: '1 day ago',
+      description: 'Join our creative team as a UX/UI Designer. You will design intuitive and beautiful user interfaces for web and mobile applications.',
+      tags: ['Figma', 'Sketch', 'Prototyping'],
+      logo: '',
+    },
+    {
+      id: '3',
+      title: 'Product Manager',
+      company: 'StartupXYZ',
+      location: 'Austin, TX',
+      type: 'Full-time',
+      salary: '$110,000 - $140,000',
+      postedDate: '3 days ago',
+      description: 'Lead product development from conception to launch. Work closely with engineering and design teams to deliver exceptional user experiences.',
+      tags: ['Product Strategy', 'Agile', 'Analytics'],
+      logo: '',
+      featured: true,
+    },
+    {
+      id: '4',
+      title: 'Data Scientist',
+      company: 'Analytics Pro',
+      location: 'Seattle, WA',
+      type: 'Full-time',
+      salary: '$130,000 - $160,000',
+      postedDate: '1 week ago',
+      description: 'Use machine learning and statistical analysis to derive insights from large datasets. Help drive data-driven decision making across the organization.',
+      tags: ['Python', 'Machine Learning', 'SQL'],
+      logo: '',
+    },
+    {
+      id: '5',
+      title: 'Marketing Manager',
+      company: 'Growth Co.',
+      location: 'Los Angeles, CA',
+      type: 'Full-time',
+      salary: '$85,000 - $110,000',
+      postedDate: '5 days ago',
+      description: 'Drive marketing campaigns and growth initiatives. Manage social media, content marketing, and paid advertising campaigns.',
+      tags: ['Digital Marketing', 'SEO', 'Content Strategy'],
+      logo: '',
+    },
+    {
+      id: '6',
+      title: 'DevOps Engineer',
+      company: 'CloudTech',
+      location: 'Remote',
+      type: 'Full-time',
+      salary: '$115,000 - $145,000',
+      postedDate: '4 days ago',
+      description: 'Manage and optimize cloud infrastructure. Implement CI/CD pipelines and ensure system reliability and scalability.',
+      tags: ['AWS', 'Docker', 'Kubernetes'],
+      logo: '',
+    },
+  ];
+
+export const stats = [
+    { icon: Briefcase, label: 'Total Jobs', value: '1,234', color: 'bg-blue-500' },
+    { icon: Users, label: 'Companies', value: '456', color: 'bg-green-500' },
+    { icon: TrendingUp, label: 'New This Week', value: '89', color: 'bg-purple-500' },
+    { icon: Calendar, label: 'Jobs Filled', value: '678', color: 'bg-orange-500' },
+  ];
+
+export const categories = [
+    'Technology', 'Design', 'Marketing', 'Sales', 'Finance', 'Healthcare', 'Education', 'Remote'
+  ];

@@ -22,17 +22,17 @@ function Navbar() {
           </div>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* <nav className="hidden md:flex items-center space-x-8">
             <Link href="/view-jobs" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">View Jobs</Link>
             <Link href="/find-jobs" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Find Jobs</Link>
             <Link href="/companies" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Companies</Link>
             <Link href="/post-job" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Post Job</Link>
             <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</a>
-          </nav>
+          </nav> */}
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
-            <Link href="/notifications">
+            {/* <Link href="/notifications">
               <Button variant="ghost" size="sm" className="hidden md:flex">
                 <Bell className="w-4 h-4 mr-2" />
                 Notifications
@@ -43,7 +43,7 @@ function Navbar() {
                 <User className="w-4 h-4 mr-2" />
                 Profile
               </Button>
-            </Link>
+            </Link> */}
             <Link href="/sign-in">
               <Button variant="ghost" size="sm">
                 <User className="w-4 h-4 mr-2" />

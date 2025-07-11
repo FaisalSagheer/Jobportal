@@ -44,7 +44,7 @@ function Navbar() {
                 Profile
               </Button>
             </Link> */}
-            <Link href="/sign-in">
+            <Link href="/login">
               <Button variant="ghost" size="sm">
                 <User className="w-4 h-4 mr-2" />
                 Sign In

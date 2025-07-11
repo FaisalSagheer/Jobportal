@@ -125,7 +125,7 @@ const JobListings = () => {
 
         {/* Load More */}
         <div className="text-center">
-          <Link href="/view-all-jobs">
+          <Link href="/view-jobs">
             <Button size="lg" variant="outline" className="hover:bg-blue-50 hover:text-blue-600">
               Load More Jobs
             </Button>

@@ -22,13 +22,12 @@ function Navbar() {
           </div>
 
           {/* Navigation */}
-          {/* <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/view-jobs" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">View Jobs</Link>
-            <Link href="/find-jobs" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Find Jobs</Link>
-            <Link href="/companies" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Companies</Link>
-            <Link href="/post-job" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Post Job</Link>
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">About</a>
-          </nav> */}
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link href="/profile" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">profile</Link>
+            {/* <Link href="/find-jobs" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Find Jobs</Link> */}
+            <Link href="/dashboard" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Dashboard</Link>
+            {/* <Link href="/post-job" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">Post Job</Link> */}
+          </nav>
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
@@ -50,7 +49,7 @@ function Navbar() {
                 Sign In
               </Button>
             </Link>
-            <Link href="/post-job">
+            <Link href="/post-jobs">
               <Button size="sm">
                 Post Job
               </Button>

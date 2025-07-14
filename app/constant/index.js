@@ -87,3 +87,92 @@ export const stats = [
 export const categories = [
     'Technology', 'Design', 'Marketing', 'Sales', 'Finance', 'Healthcare', 'Education', 'Remote'
   ];
+
+
+
+
+  export const categories_home = [
+    { name: 'All Jobs', count: 1200, active: true },
+    { name: 'Technology', count: 450 },
+    { name: 'Design', count: 230 },
+    { name: 'Marketing', count: 180 },
+    { name: 'Sales', count: 150 },
+    { name: 'Finance', count: 120 },
+  ];
+
+  export const jobs = [
+    {
+      id: '1',
+      title: 'Senior Frontend Developer',
+      company: 'TechCorp Inc.',
+      location: 'San Francisco, CA',
+      type: 'Full-time',
+      salary: '$120k - $150k',
+      postedDate: '2 days ago',
+      description: 'We are looking for a skilled Frontend Developer to join our dynamic team. You will be responsible for building user-facing features using React and modern web technologies.',
+      tags: ['React', 'TypeScript', 'Tailwind CSS'],
+      logo: '',
+      featured: true,
+    },
+    {
+      id: '2',
+      title: 'UX/UI Designer',
+      company: 'Design Studio',
+      location: 'New York, NY',
+      type: 'Full-time',
+      salary: '$90k - $120k',
+      postedDate: '1 day ago',
+      description: 'Join our creative team as a UX/UI Designer. You will design intuitive and beautiful user interfaces for web and mobile applications.',
+      tags: ['Figma', 'Sketch', 'Prototyping'],
+      logo: '',
+    },
+    {
+      id: '3',
+      title: 'Product Manager',
+      company: 'StartupXYZ',
+      location: 'Austin, TX',
+      type: 'Full-time',
+      salary: '$110k - $140k',
+      postedDate: '3 days ago',
+      description: 'Lead product development from conception to launch. Work closely with engineering and design teams to deliver exceptional user experiences.',
+      tags: ['Product Strategy', 'Agile', 'Analytics'],
+      logo: '',
+      featured: true,
+    },
+    {
+      id: '4',
+      title: 'Data Scientist',
+      company: 'Analytics Pro',
+      location: 'Seattle, WA',
+      type: 'Full-time',
+      salary: '$130k - $160k',
+      postedDate: '1 week ago',
+      description: 'Use machine learning and statistical analysis to derive insights from large datasets. Help drive data-driven decision making across the organization.',
+      tags: ['Python', 'Machine Learning', 'SQL'],
+      logo: '',
+    },
+    {
+      id: '5',
+      title: 'Marketing Manager',
+      company: 'Growth Co.',
+      location: 'Los Angeles, CA',
+      type: 'Full-time',
+      salary: '$85k - $110k',
+      postedDate: '5 days ago',
+      description: 'Drive marketing campaigns and growth initiatives. Manage social media, content marketing, and paid advertising campaigns.',
+      tags: ['Digital Marketing', 'SEO', 'Content Strategy'],
+      logo: '',
+    },
+    {
+      id: '6',
+      title: 'DevOps Engineer',
+      company: 'CloudTech',
+      location: 'Remote',
+      type: 'Full-time',
+      salary: '$115k - $145k',
+      postedDate: '4 days ago',
+      description: 'Manage and optimize cloud infrastructure. Implement CI/CD pipelines and ensure system reliability and scalability.',
+      tags: ['AWS', 'Docker', 'Kubernetes'],
+      logo: '',
+    },
+  ];

@@ -65,7 +65,7 @@ const JobCard = ({ job }) => {
 
         <div className="flex items-center justify-between">
           <span className="text-lg font-semibold text-gray-900">{job.salary}</span>
-          <Button onClick={handleApplyClick}>Apply Now</Button>
+          <Button onClick={handleApplyClick} className="bg-gray-900 text-blue-50">Apply Now</Button>
         </div>
       </CardContent>
     </Card>
